@@ -42,3 +42,8 @@ for (let i = 0 ; i< people.length ; i++){
     }
 }
 console.log(filterPeople);
+
+let YoungPeople = people.filter(function (young){
+  return young.age < 22
+})
+console.log(YoungPeople);
